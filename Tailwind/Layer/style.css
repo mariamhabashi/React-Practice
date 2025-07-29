@@ -1,0 +1,18 @@
+@layer one ,two,three;
+
+@layer one{
+    #demo{
+        background-color: antiquewhite;
+    }
+}
+
+@layer two{
+   .test{
+        background-color: aqua;
+    }
+}
+@layer three{
+    h2{
+        background-color: blueviolet;
+    }
+}
