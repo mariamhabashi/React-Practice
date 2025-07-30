@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer theme, base, components, utilities;
+
+@theme {
+  --color-tomato: tomato;
+  --breakpoint-largest: 2000px;
+  --animate-hambozo: test 1s ease infinite;
+  @keyframes test {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
